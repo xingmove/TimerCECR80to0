@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)https://www.intervaltimer.com/timers/10712745-round-timer/timer -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="./CSS/basic.css" media="all">
+
+    <link rel="stylesheet" href="./CSS/app-bab664bd2a.css" media="all">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script>
+        function includeHTML() {
+            var z, i, elmnt, file, xhttp;
+            /* Loop through a collection of all HTML elements: */
+            z = document.getElementsByTagName("*");
+            for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                /*search for elements with a certain atrribute:*/
+                file = elmnt.getAttribute("include-html");
+                if (file) {
+                    /* Make an HTTP request using the attribute value as the file name: */
+                    xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function () {
+                        if (this.readyState == 4) {
+                            if (this.status == 200) { elmnt.innerHTML = this.responseText; }
+                            if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
+                            /* Remove the attribute, and call this function once more: */
+                            elmnt.removeAttribute("include-html");
+                            includeHTML();
+                        }
+                    }
+                    xhttp.open("GET", file, true);
+                    xhttp.send();
+                    /* Exit the function: */
+                    return;
+                }
+            }
+        }
+    </script>
+
+    <noscript>
+        <link rel="stylesheet" href="./CSS/app-bab664bd2a.css">
+    </noscript>
+    <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> <![endif]-->
+</head>
+
+<body>
+
+
+    <div class="timer" style="background-color: rgb(34, 34, 34);">
+        <div class="timer-main" style="top: -86.24px; font-size: 274.4px;">00:00</div>
+        <div class="timer-accessory timer-elapsed" style="top: 215.6px; padding-right: 11.76px; padding-left: 11.76px;"><h3 style="font-size: 17.64px;">Elapsed</h3><p style="font-size: 39.2px; top: -7.84px;">00:00</p></div>
+        <div class="timer-accessory timer-interval-count" style="top: 215.6px; padding-right: 11.76px; padding-left: 11.76px;"><h3 style="font-size: 17.64px;">Intervals</h3><p style="font-size: 39.2px; top: -7.84px;">0 / 00</p></div>
+        <div class="timer-accessory timer-remaining" style="top: 215.6px; padding-right: 11.76px; padding-left: 11.76px;"><h3 style="font-size: 17.64px;">Remaining</h3><p style="font-size: 39.2px; top: -7.84px;">00:00</p></div>
+        <div class="timer-intervals">
+            <ul style="left: 0%; width: 700%;">
+            </ul>
+        </div>
+        <div class="timer-reset" style="font-size: 27.44px; padding-top: 23.52px;">
+            <span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
+        </div>
+        <div class="timer-start-toggle" style="font-size: 27.44px; padding-top: 23.52px;">
+            <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+        </div>
+    </div>
+    
+    
+    
+    
+    <script src="./JS/core-093ab4e59f.js"></script>
+    <link rel="stylesheet" href="./CSS/jquery-ui.css">
+    <script>
+        
+        
+        // xingmove start
+        var def = {"via":"web","name":"ClusterEccentricMethod","type":0,"numberOfSets":1,"soundScheme":8,"intervals":[{"name":"Ecc Ready (C_Set 1)","duration":30,"color":"2","$$hashKey":"object:3"},{"name":"Ecc 9s (C_Set 1)","duration":9,"color":"8","$$hashKey":"object:195"},{"name":"C_Rest 70s (C_Set 1)","duration":60,"color":"4","$$hashKey":"object:369"},{"name":"Ecc Ready (C_Set 2)","duration":10,"color":"2","$$hashKey":"object:629"},{"name":"Ecc 9 (C_Set 2)","duration":9,"color":"8","$$hashKey":"object:1071"},{"name":"C_Rest 70s (C_Set 2)","duration":60,"color":"4","$$hashKey":"object:1503"},{"name":"Ecc Ready (C_Set 3)","duration":10,"color":"2","$$hashKey":"object:1517"},{"name":"Ecc 9s (C_Set 3)","duration":9,"color":"8","$$hashKey":"object:1743"},{"name":"T_Rest 240s (T_Set 1)","duration":230,"color":"0","$$hashKey":"object:1825"},{"name":"Ecc Ready (C_Set 1)","duration":10,"color":"2","$$hashKey":"object:2979"},{"name":"Ecc 9s (C_Set 1)","duration":9,"color":"8","$$hashKey":"object:3181"},{"name":"C_Rest 70s (C_Set 1)","duration":60,"color":"4","$$hashKey":"object:3315"},{"name":"Ecc Ready (C_Set 2)","duration":10,"color":"2","$$hashKey":"object:3341"},{"name":"Ecc 9s (C_Set 2)","duration":9,"color":"8","$$hashKey":"object:3369"},{"name":"C_Rest 70s (C_Set 2)","duration":60,"color":"4","$$hashKey":"object:3399"},{"name":"Ecc Ready (C_Set 3)","duration":10,"color":"2","$$hashKey":"object:3431"},{"name":"Ecc 9s (C_Set 3)","duration":9,"color":"8","$$hashKey":"object:3501"},{"name":"T_Rest 240s (T_Set 2)","duration":230,"color":"0","$$hashKey":"object:3539"},{"name":"Ecc Ready (C_Set 1)","duration":10,"color":"2","$$hashKey":"object:6697"},{"name":"Ecc 9s (C_Set 1)","duration":9,"color":"8","$$hashKey":"object:6775"},{"name":"C_Rest 70s (C_Set 1)","duration":60,"color":"4","$$hashKey":"object:6857"},{"name":"Ecc Ready (C_Set 2)","duration":10,"color":"2","$$hashKey":"object:6985"},{"name":"Ecc 9s (C_Set 2)","duration":9,"color":"8","$$hashKey":"object:7075"},{"name":"C_Rest 70s (C_Set 2)","duration":60,"color":"4","$$hashKey":"object:7169"},{"name":"Ecc Ready (C_Set 3)","duration":10,"color":"2","$$hashKey":"object:7267"},{"name":"Ecc 9s (C_Set 3)","duration":9,"color":"8","$$hashKey":"object:7369"},{"name":"*T_Rest to 4T_Set","duration":210,"color":"0","$$hashKey":"object:7475"}]};
+        // xingmove end
+        
+        
+        </script>
+    <script src="./JS/timer-cc5b3881ae.js"></script>
+</body>
+
+</html>
